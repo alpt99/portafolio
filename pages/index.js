@@ -5,13 +5,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Layout from '../components/layout';
 
-
+//text-sky-700
 export default function Home() {
   return (
     <Layout>
         <div className='grid grid-cols-3 gap-4  py-16 my-8'>
           <div className='col-span-2 m-16'>
-            <div className='text-center text-4xl text-sky-700 m-4 p-4'>Alejandro López Torres</div>
+            <div className='text-center text-4xl m-4 p-4'>Alejandro López Torres</div>
             <div className='text-justify p-4'>
             My enthusiasm for learning has always fueled my pursuit of a career as a software engineer. 
             The nature of this field demands constant adaptation to evolving technologies and the enhancement of existing skills, 

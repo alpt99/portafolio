@@ -1,9 +1,11 @@
 import Navbar from "./navbar";
 
 export default function Layout({ children }) {
+    // fixed w-full z-10
     return(
-        <div className="relative">
-            <Navbar className="fixed w-full z-10"/>
+        // <div className="relative">
+        <div className="">
+            <Navbar className=""/>
             <div className="">
                 {children}
             </div>

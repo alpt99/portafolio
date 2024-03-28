@@ -9,10 +9,10 @@ import Layout from '../components/layout';
 export default function Home() {
   return (
     <Layout>
-        <div className='grid grid-cols-3 gap-4  py-16 my-8'>
+        <div className='grid grid-cols-3 gap-4 py-16 my-8'>
           <div className='col-span-2 m-16'>
-            <div className='text-center text-4xl m-4 p-4'>Alejandro López Torres</div>
-            <div className='text-justify p-4'>
+            <div className='text-center text-lg m-4 p-4 sm:text-lg md:text-4xl'>Alejandro López Torres</div>
+            <div className='text-justify text-xs md:text-base p-4'>
             My enthusiasm for learning has always fueled my pursuit of a career as a software engineer. 
             The nature of this field demands constant adaptation to evolving technologies and the enhancement of existing skills, 
             which aligns seamlessly with my strongest attribute—my eagerness to learn. 
@@ -24,15 +24,20 @@ export default function Home() {
               Skills: JavaScript | TypeScript | Python | C# | React | Next.js | Node.js | Express | PostgreSQL | HTML | CSS | TailwindCSS 
               | Git | GitHub | Slack | Figma | Trello | Docker | AWS | GCP |
             </div>
-            <div className='p-4'>Linkedin</div>
+            <div className='p-4 text-secondary'>
+              <Link href="https://www.linkedin.com/in/alejandro-l%C3%B3pez-torres-35b06920a/">
+                LinkedIn
+              </Link>
+            </div>
           </div>
-          <div className='my-16'>
+          <div className='my-16 relative'>
+            <div class="absolute top-[-5%] left-[-5%] w-[85%] h-[70%] bg-gradient-to-br from-secondary to-neutral-content z-0 rounded-xl"></div>
             <Image
               src="/images/profileAle.jpg"
               alt="Alejandro López"
               width={400}
               height={400}
-              className='rounded-full'
+              className='absolute rounded-2xl z-10'
             />
           </div>
         </div>

@@ -13,7 +13,7 @@ export default function Home() {
           <div className='col-span-2 m-16'>
             <div className='text-center font-bold text-lg m-4 p-4 sm:text-lg md:text-5xl'>Software Engineer</div>
             <div className='text-justify text-xs md:text-base p-4'>
-            Hi, I'm <span class="font-bold">Alejandro López Torres</span>. My enthusiasm for learning has always fueled my pursuit of a career as a software engineer. 
+            Hi, I'm <span className="font-bold">Alejandro López Torres</span>. My enthusiasm for learning has always fueled my pursuit of a career as a software engineer. 
             This field demands constant adaptation to evolving technologies, 
             which aligns seamlessly with my strongest attribute—my eagerness to learn. 
             I actively seek new challenges and opportunities to continuously grow as a professional. 
@@ -45,7 +45,7 @@ export default function Home() {
           <div className='my-16 relative'>
             <div className="absolute top-[-5%] left-[-5%] w-[85%] h-[70%] bg-gradient-to-br from-secondary to-neutral-content z-0 rounded-xl"></div>
             <Image
-              src="/images/profileAle.jpg"
+              src="/images/profileAle2.jpg"
               alt="Alejandro López"
               width={400}
               height={400}

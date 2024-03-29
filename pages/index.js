@@ -11,23 +11,26 @@ export default function Home() {
     <Layout>
         <div className='grid grid-cols-3 gap-4 py-16 my-8'>
           <div className='col-span-2 m-16'>
-            <div className='text-center text-lg m-4 p-4 sm:text-lg md:text-4xl'>Alejandro López Torres</div>
+            <div className='text-center font-bold text-lg m-4 p-4 sm:text-lg md:text-5xl'>Software Engineer</div>
             <div className='text-justify text-xs md:text-base p-4'>
-            My enthusiasm for learning has always fueled my pursuit of a career as a software engineer. 
-            The nature of this field demands constant adaptation to evolving technologies and the enhancement of existing skills, 
+            Hi, I'm <span class="font-bold">Alejandro López Torres</span>. My enthusiasm for learning has always fueled my pursuit of a career as a software engineer. 
+            This field demands constant adaptation to evolving technologies, 
             which aligns seamlessly with my strongest attribute—my eagerness to learn. 
-            I actively seek fresh challenges and opportunities to continuously grow as a professional. 
-            With my skill set and unwavering commitment, I aspire to contribute to the realization of your goals, 
+            I actively seek new challenges and opportunities to continuously grow as a professional. 
+            With my skills, I aspire to contribute to the realization of your goals, 
             exceeding expectations. For any inquiries, please don't hesitate to reach out to me on LinkedIn.
             </div>
-            <div className='p-4'>
-              Skills: JavaScript | TypeScript | Python | C# | React | Next.js | Node.js | Express | PostgreSQL | HTML | CSS | TailwindCSS 
-              | Git | GitHub | Slack | Figma | Trello | Docker | AWS | GCP |
-            </div>
-            <div className='p-4 text-secondary'>
-              <Link href="https://www.linkedin.com/in/alejandro-l%C3%B3pez-torres-35b06920a/">
-                LinkedIn
+            <div className='m-2 text-secondary flex flex-row'>
+              <Link className='' href="https://www.linkedin.com/in/alejandro-l%C3%B3pez-torres-35b06920a/">
+                <Image src={"icons/icon-linkedin.svg"} width={50} height={50} />
               </Link>
+              <Link className='' href="https://github.com/alpt99">
+                <Image src={"icons/icon-github.svg"} width={50} height={50} />
+              </Link>
+            </div>
+            <div className='mt-16 p-4'>
+              TechStack: JavaScript | TypeScript | Python | C# | React | Next.js | Node.js | Express | PostgreSQL | HTML | CSS | TailwindCSS 
+              | Git | GitHub | Slack | Figma | Trello | Docker | AWS | GCP |
             </div>
           </div>
           <div className='my-16 relative'>

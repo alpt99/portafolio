@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Layout from '../components/layout';
 
-//text-sky-700
+
 export default function Home() {
   return (
     <Layout>
@@ -28,13 +28,22 @@ export default function Home() {
                 <Image src={"icons/icon-github.svg"} width={50} height={50} />
               </Link>
             </div>
-            <div className='mt-16 p-4'>
-              TechStack: JavaScript | TypeScript | Python | C# | React | Next.js | Node.js | Express | PostgreSQL | HTML | CSS | TailwindCSS 
-              | Git | GitHub | Slack | Figma | Trello | Docker | AWS | GCP |
+            <div className='mt-16 p-4 flex flex-row flex-wrap justify-evenly'>
+              <span className='font-bold'>TechStack |</span> 
+              <Image src={"icons/icon-javascript.svg"} width={30} height={30} />
+              <Image src={"icons/icon-typescript.svg"} width={30} height={30} />
+              <Image src={"icons/icon-python.svg"} width={30} height={30} />
+              <Image src={"icons/icon-react.svg"} width={30} height={30} />
+              <Image src={"icons/icon-nextjs.svg"} width={30} height={30} />
+              <Image src={"icons/icon-nodejs.svg"} width={30} height={30} />
+              <Image src={"icons/icon-tailwindcss.svg"} width={30} height={30} />
+              <Image src={"icons/icon-docker.svg"} width={30} height={30} />
+              <Image src={"icons/icon-aws.svg"} width={30} height={30} />
+              <Image src={"icons/icon-gcp.svg"} width={30} height={30} />
             </div>
           </div>
           <div className='my-16 relative'>
-            <div class="absolute top-[-5%] left-[-5%] w-[85%] h-[70%] bg-gradient-to-br from-secondary to-neutral-content z-0 rounded-xl"></div>
+            <div className="absolute top-[-5%] left-[-5%] w-[85%] h-[70%] bg-gradient-to-br from-secondary to-neutral-content z-0 rounded-xl"></div>
             <Image
               src="/images/profileAle.jpg"
               alt="Alejandro López"
